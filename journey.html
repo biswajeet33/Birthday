@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Journey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: #ffe6f2;
+            padding: 20px;
+        }
+        .journey-step {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Our Journey Together 🌸</h1>
+        
+        <!-- Add your interactive elements here -->
+        <div class="journey-step">
+            <h3>First Meeting</h3>
+            <p>That day at the coffee shop...</p>
+            <button class="btn btn-primary" id="showMemory1">Reveal Memory</button>
+        </div>
+
+        <!-- Add more steps as needed -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        // Add interactive functions for the journey page
+        $('#showMemory1').click(function() {
+            alert("Our first conversation: You spilled coffee but laughed it off ☕");
+        });
+    </script>
+</body>
+</html>
